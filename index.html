@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/Javascript/Javascript.js"></script>
+    <link rel="stylesheet" href="/Css/style.css" />
+    <title>Tenki</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <img src="/Images/logo.png" alt="" />
+            <p>Company Name&nbsp;<br />&nbsp;&nbsp;<span>Tenki</span></p>
+          </div>
+          <div class="nav_action_buttons">
+            <button id="change_it">Home</button>
+            <button>About</button>
+            <button>天気の子</button>
+            <button>Contact Us</button>
+          </div>
+        </div>
+        <!-- This will be our navbar -->
+      </nav>
+    </header>
+    <section class="section_1">
+      <!-- This will be our section 1-->
+      <form id="location_form" action="" method="GET" onsubmit="return handleSubmit()">
+        <input type="text"  required autofocus autocomplete="off" name="location" id="location" placeholder="Enter a location"/>
+        <input type="submit" class="location_form_submit" value="Search">
+      </form>
+      <div></div>
+    </section>  
+    <section >
+      <div id="append_here_before">
+        ע૦υՐ ω૯ค੮Һ૯Ր ८คՐძς ૭૦૯ς Һ૯Ր૯
+      </div>
+      <div id="append_here">
+      </div>
+      <!-- This will be our section 2-->
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=agra&appid=52fbfd16084cb849b4bab407c67677ea&units=metric -->
+
+<!-- 
+const apiKey = "YOUR_OWN_KEY";
+const inputVal = input.value;
+ 
+...
+ 
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`; -->
