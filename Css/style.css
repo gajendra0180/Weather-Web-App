@@ -70,8 +70,7 @@ a {
 }
 .section_1 > div {
   height: 100vh;
-  background-image: url(/Images/section1.jpg);
-  /* background-image: url(https://source.unsplash.com/1600x900/?japan); */
+  background-image: url(https://source.unsplash.com/1600x900/?japan); 
   width: 100vw;
   position: absolute;
   left: 0;
